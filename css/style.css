@@ -1,0 +1,436 @@
+ @import url('https://fonts.googleapis.com/css?family=Baloo');
+
+body{
+	font-family: 'Baloo', cursive;
+}
+
+
+.hea {
+	background-image: url(../images/Brandly.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	position: relative;
+    overflow: hidden;
+}
+
+.logo {
+ margin-top: 20px;
+}
+
+.nev{
+    margin-top: 20px;
+}
+.rar{
+    font-size: 25px;
+    margin-left: 35px;
+}
+.drp a{
+    font-size: 25px;
+}
+
+.sliders {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.sliders h5{
+color: #fff;
+font-size: 30px;
+letter-spacing: 5px;
+font-weight: 100;
+margin: 0;
+}
+.sliders h1{
+margin: 20px 0;
+color: #fff;
+font-size: 60px;
+}
+.sliders p{
+	margin: 0;
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.ShopNow{
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border:1px solid #fff;
+	padding: 20px 50px;
+	display: inline-block;
+	color: #fff;
+}
+
+.produc{
+		margin-top: 50px;
+			overflow: hidden;
+}	
+
+
+.produc:hover .heding h2:before, 
+.produc:hover .heding h2:after{
+	transform: translateX(-50%) scale(1);
+	}
+.heding{
+
+	margin-bottom: 50px;
+}
+
+.heding h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #333;
+	font-style: italic;
+	margin: 0;
+	position: relative;
+}
+
+.heding h2:after{
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 5px;
+	background: #cc3333;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	transition: all 0.5s ease-in-out;
+
+}
+.heding h2:before{
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 5px;
+	background: #cc3333;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	transition: all 0.5s ease-in-out;
+
+}
+
+
+.pro {
+	padding: 15px;
+}
+
+.catagory {
+	position: relative;
+}
+
+.catagory:hover .o1:after, 
+.catagory:hover .o1:before{
+	transform: translateX(-50%) scale(1);
+} 
+.catagory:hover .o2:after, 
+.catagory:hover .o2:before
+{
+transform: translateY(-50%) scale(1);
+}
+
+.catagory span{
+	position: absolute;
+	top: 60%;
+	left:50%;
+	transform: translate(-50%, -60%);
+	color: #fff;
+	font-size: 40px;
+	font-style: italic;
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+
+.catagory:hover span{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 1;
+}
+
+.o1:after{
+	position: absolute;
+	content: "";
+	width: 90%;
+	height: 2px;
+	background: #fff;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	transition: all 0.6s ease;
+}
+
+.o1:before{
+	position: absolute;
+	content: "";
+	width: 90%;
+	height: 2px;
+	background: #fff;
+	bottom:5%;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	transition: all 0.6s ease;
+}
+
+.o2:after{
+position: absolute;
+	content: "";
+	width: 2px;
+	height: 90%;
+	background: #fff;
+	bottom:5%;
+	left: 5%;
+	top: 50%;
+	transform: translateY(-50%) scale(0);
+	transition: all 0.6s ease;
+	
+}
+
+.o2:before{
+position: absolute;
+	content: "";
+	width: 2px;
+	height: 90%;
+	background: #fff;
+	bottom:5%;
+	right:5%;
+	top: 50%;
+	transform: translateY(-50%) scale(0);
+	transition: all 0.6s ease;
+}
+
+.offer {
+
+	padding: 15px;
+	position: relative;
+}
+
+.offer a{
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.offer h3{
+	font-size:45px;
+	color: #fff;
+	text-align: center;
+}
+
+.p:after{
+	position: absolute;
+content: "";
+width: 55%;
+height: 2px;
+background: #fff;
+left: 35%;
+top: 25%;
+	transform: translateX(-35%) scale(0);
+	transition: all 0.5s ease-in-out;
+
+}
+
+.p:before{
+	position: absolute;
+content: "";
+width: 55%;
+height: 2px;
+background: #fff;
+left: 35%;
+bottom: 25%;
+	transform: translateX(-35%) scale(0);
+	transition: all 0.5s ease-in-out;
+
+}
+
+.offer:hover .p:after,
+.offer:hover .p:before{
+	transform: translateX(-22%) scale(1);
+}
+
+.trd {
+	background: url(../images/Brandly6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 0;
+	position: relative;
+	overflow: hidden;
+
+}
+.trending:hover .heding h2:before, 
+.trending:hover .heding h2:after{
+	transform: translateX(-50%) scale(1);	
+}
+
+
+.con {
+	padding-left:30px;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+
+.con h4{
+	color: red;
+	font-size: 30pt;
+margin: 30px 0 0 0;
+
+}
+.con b{
+	font-size: 18pt;
+	color: #333;
+
+}
+.con p{
+	margin: 0;
+	padding: 0;
+	font-size: 18pt;
+	color: #333;
+}
+.con h6{
+	margin-top: 10px;
+margin-bottom: 0;
+font-size: 18pt;
+color: #333;
+
+}
+
+.trending li a{
+	background: #333;
+}
+
+.size button{
+	margin-top: 10px;
+	margin-left: 18px;
+	background: rgba(255, 255, 255, 0);
+	color: #333;
+}
+.o{
+	height: 50px;
+	width: 70px;
+	border: 1px solid #333;
+	font-size: 16pt;
+	color: #333;
+}
+.o:hover{
+	background: #000;
+	color: #fff;
+}
+
+.shop a {
+margin-top: 20px;
+text-decoration: none;
+color: #333;
+font-size: 16pt;
+
+}
+.n{
+	border:1px solid #333;
+	padding: 8px 37px;
+	display: inline-block;
+margin-left: 10px; 
+color: #333;
+
+}
+
+.blog {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+		overflow: hidden;
+}
+
+.blog:hover .heding h2:before, 
+.blog:hover .heding h2:after{
+	transform: translateX(-50%) scale(1);	
+}
+
+
+.b-box {
+	padding-left:10px;
+}
+
+.b-box h1{
+	font-size: 25pt;
+	color: red;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.b-box b{
+		font-size: 18pt;
+		color: #333;
+	}
+
+.b-box p{
+	font-size: 18pt;
+	color: #333;
+
+}
+
+.b-box a{
+text-decoration: none;
+font-size: 16pt;
+color: #333;
+}
+
+.on{
+	border:1px solid #333;
+	padding: 8px 37px;
+	display: inline-block;
+		margin-bottom: 10px;
+}
+
+.sub {
+	background-image: url(../images/Brandly10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 0;
+		overflow: hidden;
+
+
+}
+
+.form p{
+	font-size: 18pt;
+	color: #fff;
+}
+.input{
+	height: 50px;
+	width: 90%;
+	border:1px solid #fff;
+	background: rgba(255, 255, 255, 0);
+	color: #fff;
+	font-size: 13pt;
+	padding-left: 25px;
+	margin-bottom: 5px;
+}
+.but a{
+	text-decoration: none;
+	font-size: 18pt;
+	color: #000;
+
+}
+
+.f{
+	border:1px solid #fff;
+	padding: 8px 37px;
+	display: inline-block;
+	background: #fff;
+
+}
+
+.foo{
+	text-align: center;
+	font-size: 18pt;
+	color: #333;
+	margin-bottom:20px;
+	margin-top:25px;
+		overflow: hidden;
+}
+
+.fa.fa-heart {
+	color: red;
+}
